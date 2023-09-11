@@ -1,0 +1,48 @@
+
+
+.form-box{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    background:#241a20;
+}
+.toggle-btn1{
+    padding:10px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    
+    color:yellow
+}
+.toggle-btn2{
+    padding:10px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    
+    color: rgb(5, 9, 51);
+}
+#btn{
+    left:0;
+    top: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: rgb(207, 180, 180);
+    border-radius: 30px;
+    transition: .5s;
+}
+
